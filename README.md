@@ -18,8 +18,8 @@ Lastly, you can also view the live site [here](https://michaeltothewilson.github
 
 ### Resources Used
 
-Bootstrap - [Bootstrap Getting Started](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- Bootstrap - [Bootstrap Getting Started](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
-jQuery - [jQuery API](https://api.jquery.com/)
+- jQuery - [jQuery API](https://api.jquery.com/)
 
-W3 Schools - [jQuery - Get and Set Classes](https://www.w3schools.com/jquery/jquery_css_classes.asp)
+- W3 Schools - [jQuery - Get and Set Classes](https://www.w3schools.com/jquery/jquery_css_classes.asp)

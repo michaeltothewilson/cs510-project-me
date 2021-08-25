@@ -24,3 +24,14 @@ section {
 
 .fancy-header {
 }
+
+/* Form Style */
+
+#contact {
+  padding: 50px;
+}
+
+#contact .row {
+  justify-content: center;
+  padding: 10px;
+}

@@ -49,7 +49,7 @@
                         I write code and I write rhymes.<br>
                         I ride bikes and my clothes are fly<br>
                     </p>
-                    <a href="#" class="btn btn-primary">About Me</a>
+                    <a href="#about" class="btn btn-primary">About Me</a>
             </div>
         </section>  
         <!-- Home Ends -->
@@ -229,7 +229,6 @@
                             </p>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </section>
@@ -237,11 +236,29 @@
 
         <!-- Contact Form-->
         <section class="section contact-section" id="contact">
+            <h3>Contact Me</h3>
+            <p>Please feel free to ask me computer science or education related questions :)</p>
             <div class="row">
-                <div class="col">
-                    Contact form here
-                </div>
+                <img src="img/Mike Likes Science - White Board.jpg" alt="Mike in front of a white board">
             </div>
+            <form>
+                <div class="row">
+                    <div class="col-5">
+                        <input type="text" class="form-control form-control-lg" placeholder="Your Name" maxlength="50" aria-label="Your Name">
+                    </div>
+                    <div class="col-5">
+                        <input type="email" class="form-control form-control-lg" placeholder="Your E-Mail Address" maxlength="50" aria-label="Your E-Mail Address">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <textarea id="contact-textarea" class="form-control form-control-lg" placeholder="Your Message Goes Here" rows="5" aria-label="Your Message Goes Here"></textarea>
+                    </div>
+                </div>
+                    <button class="btn btn-primary btn-lg" id="contact-sendbutton">Send</button>
+                    <button type="reset" class="btn btn-secondary btn-lg" id="contact-resetbutton">Reset</button>
+                </div>
+            </form>
         </section>
         <!-- Contact Form Ends -->
     </div>

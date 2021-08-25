@@ -1,0 +1,26 @@
+section {
+  padding-top: 100px;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+}
+
+.img-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.about-me-stats {
+  padding: 50px;
+}
+
+.fancy-header {
+}

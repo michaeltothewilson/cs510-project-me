@@ -84,11 +84,9 @@ ul {
   padding: 10px;
 }
 
-/* Navbar */
-.navbar-custom {
-  background-color: rgb(29, 0, 12);
+#contact input {
+  margin: 10px;
 }
 
-.navbar-custom .nav-link {
-  color: white;
-}
+/* Navbar */
+.nav-link

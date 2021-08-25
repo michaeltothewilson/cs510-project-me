@@ -1,11 +1,21 @@
-section {
-  padding-top: 100px;
-}
-
 .container {
   text-align: center;
   justify-content: center;
 }
+
+/* I like large text */
+p {
+  font-size: large;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+section {
+  padding-top: 100px;
+}
+
 .card {
   text-align: center;
 }
@@ -22,20 +32,63 @@ section {
   padding: 50px;
 }
 
-.fancy-header {
+/* Resume Style */
+.resume-section .row {
+  text-align: left;
 }
 
+.resume-section .resume-summary {
+  text-align: center;
+}
+
+.resume-section h2,
+h3,
+i {
+  font-weight: bold;
+}
+
+.resume-section h1 {
+  text-align: center;
+}
+
+.resume-section i {
+  font-size: 14px;
+  background-color: rgba(252, 227, 0, 0.397);
+}
+
+.resume-section h3 {
+  font-size: 20px;
+}
+
+.resume-section li,
+ul {
+  padding: 10px;
+}
+
+.resume-section img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /* Carousel Style */
 .carousel-inner p {
   font-size: larger;
 }
 
-/* Form Style */
-#contact {
-  padding: 50px;
+.carousel .card {
+  border: none;
 }
 
+/* Form Style */
 #contact .row {
   justify-content: center;
   padding: 10px;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: rgb(29, 0, 12);
+}
+
+.navbar-custom .nav-link {
+  color: white;
 }
